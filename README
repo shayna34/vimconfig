@@ -1,1 +1,11 @@
-This is my Vim config.
+Pathogen plugins to clone grom GitHub into bundle/:
+    - delimitMate
+    - vim-javascript
+    - vim-go
+
+Vundle plugins installed with :PluginInstall
+
+Usage:
+    $ cd
+    $ git clone https://github.com/shayna34/vimconfig.git .vim
+    $ echo "runtime vimrc" > .vimrc
